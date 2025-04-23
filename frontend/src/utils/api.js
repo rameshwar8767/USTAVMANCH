@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://ustavmanch.onrender.com';
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'https://ustavmanch.onrender.com';
 const UPLOADS_URL = import.meta.env.VITE_UPLOADS_URL || 'https://ustavmanch.onrender.com/uploads';
 
 const api = axios.create({
