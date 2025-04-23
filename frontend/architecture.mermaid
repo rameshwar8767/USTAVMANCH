@@ -1,0 +1,6 @@
+graph TD
+    User[Frontend (React)] -->|API Calls| Backend[Backend (Node.js/Express)]
+    Backend -->|CRUD Operations| Database[Database (MongoDB)]
+    Backend --> Notification[Notification Service]
+    Backend --> Payment[Future: Payment Gateway]
+    Backend --> Chat[Future: Chat Service]
